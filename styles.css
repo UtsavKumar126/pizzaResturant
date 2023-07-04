@@ -1,0 +1,99 @@
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ruda', sans-serif;
+    color:white;
+    width:1510px;
+    position: fixed;
+    height:70px
+}
+.heads{
+    margin-left: 30px;
+}
+.general{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.pizzaback{
+   width:1510px;
+   height:1006px; 
+   background-image: url("https://media.istockphoto.com/id/937498298/photo/cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=WlyWI2xsl6nDstjOHxmOSWB0ABjqON6NR4KclGDpEXc=");
+   background-size: 1510px 1006px;
+   color :rgb(252, 247, 247);
+   font-size: 40px;
+   font-family: 'Quattrocento', serif;
+}
+.texts{
+    display: inline-block;
+    position: absolute;
+    width:409px;
+    height: 399px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+    margin-top: 400px;
+    margin-left:110px ;
+    text-align: justify;
+}
+*{
+    color: white;
+}
+div p{
+    margin-top: -10px;
+    font-family: 'Ruda', sans-serif;
+    margin-top: 10px;
+}
+h3{
+    color:yellow;
+    font-family: 'Ruda', sans-serif;
+    margin-top: -5px;
+}
+h2{
+    font-family: 'Quattrocento', serif;
+}
+svg{
+    margin-top: 10px;
+}
+.carousel-container {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .carousel-container .carousel-item img {
+    width: 1000px;
+    height: 800px;
+    object-fit: cover;
+  }
+
+  .carousel-container .carousel-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 25px);
+  }
+
+  .carousel-container .carousel-control-prev {
+    left: 20px;
+  }
+
+  .carousel-container .carousel-control-next {
+    right: 20px;
+  }
+
+
